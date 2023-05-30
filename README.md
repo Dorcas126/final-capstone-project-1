@@ -166,7 +166,7 @@ Thank you.
 
 ## 🙏 Acknowledgments 
 
-I would like to thank each and everyone for your support and interest on my project.
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) in Behance.
 Thank you
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
