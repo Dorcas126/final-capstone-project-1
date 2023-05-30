@@ -97,7 +97,8 @@ body::before {
 .title-section {
   background-image: url(img/white_wave_bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: cover;
   min-height: 60vh;
   display: flex;
   justify-content: center;
@@ -112,7 +113,8 @@ body::before {
 
 .intro {
   color: rgb(184, 3, 3);
-  font-size: 20px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .page-title {
@@ -145,13 +147,17 @@ body::before {
   margin-top: 10px;
   background-color: #464543;
   box-shadow: 1px 1px #757370;
-  padding: 18px;
+  padding: 10px;
   gap: 1rem;
 }
 
+.lecture:hover{
+    border: 2px solid white;
+  }
+
 .text {
   color: #ec5242;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .Program-span {
@@ -169,10 +175,6 @@ body::before {
   margin: auto;
   margin-bottom: 10px;
   border: 1px solid red;
-}
-
-.p-tag {
-  padding: 10px;
 }
 
 .p-tag2 {
@@ -314,6 +316,7 @@ body::before {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 250px;
     margin-left: 10px;
   }
 
@@ -360,6 +363,7 @@ body::before {
   .greeting {
     color: rgb(221, 56, 56);
     font-size: 40px;
+    font-weight: 700;
     margin-bottom: 10px;
   }
 
@@ -564,7 +568,24 @@ body::before {
 @media screen and (max-width: 552px) {
   .lecture {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lecture_icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: green; */
+  }
+
+  .lecture_icon img {
+    width: 30px;
+  } 
+
+  .lecture_text {
+    /* background-color: red; */
+    width: 100%;
   }
 
   .speaker {
@@ -580,5 +601,9 @@ body::before {
 
   .connect-img {
     width: 95%;
+  }
+
+  .p-tag {
+    font-size: 12px;
   }
 }
