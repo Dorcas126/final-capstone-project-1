@@ -98,7 +98,6 @@ body::before {
   background-image: url(img/white_wave_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: cover;
   min-height: 60vh;
   display: flex;
   justify-content: center;
@@ -151,12 +150,13 @@ body::before {
   gap: 1rem;
 }
 
-.lecture:hover{
-    border: 2px solid white;
-  }
+.lecture:hover {
+  border: 2px solid white;
+}
 
 .text {
   color: #ec5242;
+
   /* padding: 10px; */
 }
 
@@ -576,12 +576,13 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1rem;
+
     /* background-color: green; */
   }
 
   .lecture_icon img {
     width: 30px;
-  } 
+  }
 
   .lecture_text {
     /* background-color: red; */
