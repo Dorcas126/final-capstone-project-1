@@ -79,7 +79,7 @@ and styled it , by giving it a color.
 
 ## 🚀 Live Demo 
 
-- [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
+- [Live Demo Link](https://dorcas126.github.io/final-capstone-project-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +88,7 @@ and styled it , by giving it a color.
 ## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
-just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/desktop-version)
+just visit my repo folder (https://github.com/Dorcas126/final-capstone-project-1)
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ but mostly use Vs code
 ### Setup 
 
 Clone this repository to your desired folder:
-https://github.com/Dorcas126/Setup-and-mobile-first-project.git
+https://github.com/Dorcas126/final-capstone-project-1.git
 
 ### Install
 
