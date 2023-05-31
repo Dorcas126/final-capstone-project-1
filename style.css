@@ -129,13 +129,14 @@ body::before {
 }
 
 .main-activity-section {
-  background-image: url(img/mainactivity.jpg);
+  /* background-image: url(img/mainactivity.jpg); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 60vh;
+  background-color: #262932;
 }
 
 .lecture {
@@ -294,6 +295,37 @@ body::before {
   color: #757370;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #333535;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-out;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: normal;
+  padding: 8px;
+  border-color: #f4f7f8;
+  width: 320px;
+}
+
+.speakers {
+  display: none;
+}
+
+.speakers:nth-child(1) {
+  display: flex;
+}
+
+.speakers:nth-child(2) {
+  display: flex;
 }
 
 @media screen and (min-width: 50em) {
@@ -528,6 +560,10 @@ body::before {
     width: 100%;
     margin-bottom: 30px;
     font-size: 20px;
+  }
+
+  .activated {
+    height: 100% !important;
   }
 
   .speaker {
