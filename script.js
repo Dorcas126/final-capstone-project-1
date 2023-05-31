@@ -68,13 +68,16 @@ for (let i = 0; i < featured.length; i += 1) {
   const div = document.createElement('div');
   div.className = 'speaker';
   div.innerHTML = `
-      <img src="${featured[i].speaker}" alt="${featured[i].name}" class="image">
-     <div class="description">
-     <h3>${featured[i].name}</h3>
-     <p class="sub-heading push">${featured[i].profession}</p>
-     <span class="institution">${featured[i].school}</span>
-     </div>
-     `;
+
+      <div class="speakers_div">
+        <img src="${featured[i].speaker}" alt="${featured[i].name}" class="image">
+             <div class="description">
+             <h3>${featured[i].name}</h3>
+             <p class="sub-heading push">${featured[i].profession}</p>
+             <span class="institution">${featured[i].school}</span>
+             </div>
+      </div>
+             `;
   wholeSpeakers.appendChild(div);
 }
 
