@@ -80,6 +80,7 @@ and styled it , by giving it a color.
 ## 🚀 Live Demo 
 
 - [Live Demo Link](https://dorcas126.github.io/final-capstone-project-1/)
+- [Link to my video] (https://drive.google.com/file/d/1tXLM-2YoC6D4TVei7hZyoYBMZ34V9HiD/view)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
